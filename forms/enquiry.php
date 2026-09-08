@@ -9,7 +9,7 @@
  *
  * IMPORTANT - CONFIGURE BEFORE GOING LIVE:
  *   1. Set $to_email below (already set to corbett@delightstay.co.in as required).
- *   2. Set $from_email to an address on YOUR domain (e.g. noreply@dusknddunes.com).
+ *   2. Set $from_email to an address on YOUR domain (e.g. corbett@delightstay.co.in).
  *      Most shared hosts reject mail where the From address is not on the sending
  *      domain, so do not use the visitor's email as the From address - it is used
  *      only as Reply-To.
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 // ---------- Configuration ----------
 $to_email   = 'corbett@delightstay.co.in';           // Required recipient - do not change without instruction
-$from_email = 'noreply@dusknddunes.com';             // Replace with your live domain email
+$from_email = 'corbett@delightstay.co.in';             // Replace with your live domain email
 $site_name  = 'Dusk N Dunes - Thar Desert Camp';
 
 // ---------- Honeypot spam trap ----------
